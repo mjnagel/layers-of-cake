@@ -1,0 +1,11 @@
+kind: ZarfPackageConfig
+metadata:
+  name: child
+components:
+  - name: file
+    required: true
+    import:
+      path: ../leaf
+    files:
+      - source: cfile.txt
+        target: cfile.txt

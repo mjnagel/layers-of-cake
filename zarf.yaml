@@ -1,0 +1,11 @@
+kind: ZarfPackageConfig
+metadata:
+  name: parent
+components:
+  - name: file
+    required: true
+    import:
+      path: ./sibling
+    files:
+      - source: file.txt
+        target: file.txt

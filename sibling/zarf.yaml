@@ -1,0 +1,11 @@
+kind: ZarfPackageConfig
+metadata:
+  name: sibling
+components:
+  - name: file
+    required: true
+    import:
+      path: ../child
+    files:
+      - source: sfile.txt
+        target: sfile.txt

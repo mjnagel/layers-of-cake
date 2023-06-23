@@ -1,0 +1,9 @@
+kind: ZarfPackageConfig
+metadata:
+  name: leaf
+components:
+  - name: file
+    required: true
+    files:
+      - source: lfile.txt
+        target: lfile.txt
